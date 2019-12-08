@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contaimer{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    float: left;
+    background-color: #87509c;
+    padding-top: 10px;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    display: block;
+    max-width: 100%;
+}
+.menu{
+    width: 70%;
+    float: left;    
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 30px;
+}
+nav ul li:hover,nav ul li a:hover{
+    background-color: #643a79;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-content{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 150px 0px;
+}
+.header-content h2{
+    line-height: 40px;
+}
+.btn{
+    background-color: #eb7d4b;
+    padding: 20px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 40px; 
+    border: none;
+}
+.btn:hover{
+    box-shadow: 0px 3px 0px #c86a40;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+}
+.service{
+    background-color: #17c2a4;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+/* all titles */
+.service-title, .team-title, .skills-title, .portfolio-title, .testimonial-title, .contact-title{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.service-title h3{
+    margin-top: 80px; 
+    color: #fff;
+    text-transform: uppercase;
+}
+.service-title p{
+    color: #fff;
+    padding: 50px 0px;
+}
+.underline{
+    border-bottom: 3px solid #00000052;
+    display: block;
+    width: 60px;
+    margin: 5px auto;
+}
+.service-one{
+    width: 23%;
+    float: left;
+    margin: 1%;
+    color: #fff;
+    text-align: center;
+}
+.service-one img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.service-one h4{
+    text-transform: capitalize;
+    margin: 20px;
+}
+.service-one p{
+    padding: 30px;
+}
+
+
+.team{
+    background-color: #e7f1f8;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.team-title h3{
+    margin-top: 80px; 
+    text-transform: uppercase;
+}
+.team-title p{
+    padding: 30px;    
+}
+.team-one{
+    width: 23%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+.team-one img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.team-one h4{
+    text-transform: capitalize;
+    margin: 20px;
+}
+.team-one h6{
+    margin: 20px;
+    color: #30bae7;
+}
+.team-one p{
+    padding: 30px;
+}
+
+
+.skills{
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.skills-title h3{
+    margin-top: 80px; 
+    text-transform: uppercase;
+}
+.skills-title p{
+    padding: 30px;    
+}
+.skills-one{
+    width: 23%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+.skills-one img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.skills-one h4{
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+
+.portfolio{
+    background-color: #ffdd99;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.portfolio-title h3{
+    margin-top: 80px; 
+    text-transform: uppercase;
+}
+.portfolio-title p{
+    padding: 30px;    
+}
+.portfolio-one{
+    width: 45%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+.portfolio-one img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.portfolio-one h4{
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+
+.testimonial{
+    background-color: #d74680;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-title h3{
+    margin-top: 80px; 
+    text-transform: uppercase;
+}
+.testimonial-title p{
+    text-align: left;
+    padding: 30px;    
+}
+.testimonial-one{
+    width: 45%;
+    float: left;
+    margin: 1%;
+}
+.testimonial-one-left{
+    width: 30%;
+    float: left;
+}
+.testimonial-one-right{
+    width: 70%;
+    float: left;
+}
+.testimonial-one img{
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.testimonial-one h4{
+    text-align: left;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.testimonial-one h6{
+    text-align: left;
+    margin: 10px;
+    color: #ffdd99;
+}
+.testimonial-one p{
+    margin: 10px;
+}
+
+.contact{
+    background-color: #3c5499;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+.contact-form{
+
+}
+
+.contact-title h3{
+    margin-top: 80px; 
+    text-transform: uppercase;
+}
+.contact-title p{
+    padding: 30px;  
+}
+.form-control{
+    width: 48%;
+    float: left;
+    padding: 10px;
+    margin: 1%;
+}
+.message{
+    width: 98%;
+    margin: 1%;
+    padding: 10px;
+}
+
+
